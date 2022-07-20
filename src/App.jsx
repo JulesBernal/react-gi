@@ -182,7 +182,11 @@ export default class App extends Component {
     return(
     <div className="App">
       <p>test</p>
-      <BasicInfo data={person[0]}/>
+
+      {/* Below is the Medium Version */}
+      {/* <BasicInfo data={person[0]}/> */}
+      
+      {/* Hard version */}
       <div>
         {person.map((people) =>
           {
